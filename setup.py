@@ -5,7 +5,12 @@ setup(
     version="0.1",
     py_modules=["pywpp"],
     install_requires=[
-        "Click", "validators", "i3ipc", "python-dotenv", "requests"
+        "Click",
+        "validators",
+        "i3ipc",
+        "python-dotenv",
+        "requests",
+        "pyinotify",
     ],
     entry_points="""
         [console_scripts]
